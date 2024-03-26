@@ -19,7 +19,7 @@ has_toc: false
 
 ![image](https://github.com/HCM-guru/webtutor-types/assets/693254/aefa6c12-4479-4cab-a7e8-c29d880358b7)
 
-[> Перейти к конфигурации]({% link docs/types/configuration.md %}){: .btn }
+[Перейти к конфигурации]({% link docs/types/configuration.md %}){: .btn }{: .float-right}
 
 ## Ссылки
 
