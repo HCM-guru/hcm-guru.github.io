@@ -6,6 +6,9 @@ url: https://just-the-docs.github.io
 
 last_modified_date: true
 
+ga_tracking: G-5MWDB6X775
+ga_tracking_anonymize_ip: true
+
 callouts:
   warning:
     title: Предупреждение
