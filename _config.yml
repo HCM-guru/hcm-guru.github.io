@@ -5,3 +5,11 @@ theme: just-the-docs
 url: https://just-the-docs.github.io
 
 last_modified_date: true
+
+callouts:
+  warning:
+    title: Предупреждение
+    color: red
+  note:
+    title: Информация
+    color: purple
