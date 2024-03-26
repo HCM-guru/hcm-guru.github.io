@@ -1,5 +1,5 @@
 ---
-title: Описание
+title: Вступление
 layout: home
 nav_order: 1
 ---

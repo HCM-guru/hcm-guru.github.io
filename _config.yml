@@ -3,3 +3,5 @@ description: Документация по инструментам для WebSo
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
+
+last_modified_date: true
