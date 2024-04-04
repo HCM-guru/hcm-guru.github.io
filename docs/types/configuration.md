@@ -7,12 +7,17 @@ nav_order: 1
 
 ## Конфигурация
 
-В процессе написания
-{: .label .label-yellow }
+Актуально
+{: .label .label-green }
 
-Типы доступны в проектах как для _typescript_, так и для проекты на javascript
+Типы доступны в проектах как для _typescript_, так и для проектов на _javascript_
 
-Для работы типов необходимо установить _typescript_
+### Установка
+
+Для работы типов необходимо установить _typescript 4.4.4_
+
+{: .note }
+Почему именно [typescript 4.4.4?]({% link docs/faq/index.md %}#Почему-версия-4.4.4?)
 
 ```bash
 npm i typescript@4.4.4
@@ -22,7 +27,11 @@ npm i typescript@4.4.4
 
 ```bash
 npm i @umbrik/webtutor-types
+# or
+npm i @umbrik/webtutor-types@{необходимая_версия}
 ```
+
+### Генерация конфигурации
 
 После этого необходимо сгенерировать _tsconfig.json_
 
@@ -32,7 +41,21 @@ npm i @umbrik/webtutor-types
 npx tsc -init
 ```
 
-Далее добавляем/обновляем _tsconfig_
+Далее добавляем в _tsconfig_ следующие строки:
+
+```jsonc
+{
+  // Отключение автоматической загрузки любых типов/библиотек
+  "noLib": true,
+  // Типы для WebSoft HCM
+  "typeRoots": [
+    "node_modules/@umbrik/webtutor-types/lib",
+    "node_modules/@umbrik/webtutor-types/lib/xml"
+  ]
+}
+```
+
+Пример _tsconfig.json_
 
 ```jsonc
 {
@@ -46,9 +69,7 @@ npx tsc -init
     "isolatedModules": true,
     "moduleResolution": "node",
     "baseUrl": "src",
-    // отключение автоматической загрузки любых типов/библиотек
     "noLib": true,
-    // типы для WebSoft HCM
     "typeRoots": [
       "node_modules/@umbrik/webtutor-types/lib",
       "node_modules/@umbrik/webtutor-types/lib/xml"

@@ -16,3 +16,6 @@ callouts:
   note:
     title: Информация
     color: purple
+
+mermaid:
+  version: "10.9.0"
