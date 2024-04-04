@@ -14,7 +14,7 @@ nav_order: 2
 
 Можно использовать типы для проектов на _javascript_, используя jsdoc
 
-Необходимо только [подключить типы]({% /docs/types/configuration %}#Установка) и можно использовать с помощью [деклараций jsdoc комментариев](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html).
+Необходимо только [подключить типы]({% link docs/types/configuration.md %}#Установка) и можно использовать с помощью [деклараций jsdoc комментариев](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html).
 
 ```js
 /** @type {ServerAgentDocument | null} serverAgentDocument */
@@ -29,7 +29,7 @@ var serverAgentDocument = tools.get_doc_by_key(
 
 Можно использовать типы для проектов на _typescript_
 
-Необходимо только [подключить типы]({% /docs/types/configuration %}#Установка) и можно использовать как [типы typescript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html).
+Необходимо только [подключить типы]({% link docs/types/configuration.md %}#Установка) и можно использовать как [типы typescript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html).
 
 ```typescript
 var serverAgentDocument = tools.get_doc_by_key<ServerAgentDocument>(
