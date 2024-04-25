@@ -17,6 +17,7 @@ nav_order: 1
 - [webtutor-types]({% link docs/types/index.md %}) - npm пакет, который добавляет поддержку строгой типизации для вашего проекта
 - [webtutor-api]({% link docs/api/index.md %}) - пример (шаблон) API структуры с базовым набором библиотек, обработчиков, роутинга и и т.д.
 - [Linter]({% link docs/linter/index.md %}) - конфиг для линтера
+- [Docker]({% link docs/docker/index.md %}) - конфигурация WebSoft HCM для Docker
 
 ## Контакты
 
